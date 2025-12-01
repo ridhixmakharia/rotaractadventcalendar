@@ -1,0 +1,71 @@
+:root {
+  /* Christmas Palette */
+  --christmas-red: #D42426;
+  --christmas-green: #165B33;
+  --christmas-gold: #F8B229;
+  --christmas-cream: #F0EAD6;
+  --christmas-dark: #1A1A1A;
+  
+  /* UI Colors */
+  --bg-primary: #0F172A;
+  --bg-secondary: #1E293B;
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --accent: var(--christmas-gold);
+  
+  /* Fonts */
+  --font-heading: 'Mountains of Christmas', cursive;
+  --font-body: 'Outfit', sans-serif;
+  
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  
+  /* Animation */
+  --transition-speed: 0.3s;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+button {
+  font-family: var(--font-body);
+  cursor: pointer;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--christmas-red);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--christmas-gold);
+}
