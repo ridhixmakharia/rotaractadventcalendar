@@ -49,7 +49,7 @@ const ComingSoonModal = () => {
                 </div>
 
                 <p className="message">
-                    The Rotaract Advent Calendar begins on<br />
+                    The Rotaract Bangalore Junction Advent Calendar begins on<br />
                     <strong>December 7th, 2025</strong>
                 </p>
 
