@@ -9,7 +9,7 @@ const ComingSoonModal = () => {
     if (!ENABLE_COMING_SOON) return null;
 
     function calculateTimeLeft() {
-        const targetDate = new Date('December 7, 2025 00:00:00').getTime();
+        const targetDate = new Date('December 1, 2025 00:00:00').getTime();
         const now = new Date().getTime();
         const difference = targetDate - now;
 
