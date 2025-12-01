@@ -9,7 +9,7 @@ const ComingSoonModal = () => {
     if (!ENABLE_COMING_SOON) return null;
 
     function calculateTimeLeft() {
-        const targetDate = new Date('December 1, 2025 00:00:00').getTime();
+        const targetDate = new Date('December 7, 2025 00:00:00').getTime();
         const now = new Date().getTime();
         const difference = targetDate - now;
 
@@ -50,7 +50,7 @@ const ComingSoonModal = () => {
 
                 <p className="message">
                     The Rotaract Advent Calendar begins on<br />
-                    <strong>December 1st, 2025</strong>
+                    <strong>December 7th, 2025</strong>
                 </p>
 
                 <div className="countdown-container">
