@@ -30,10 +30,10 @@ const AdventGrid = () => {
         const today = new Date();
         const currentYear = today.getFullYear();
 
-        // Target start date: Dec 1, 2025
+        // Target start date: Dec 7, 2025
         const targetYear = 2025;
         const startMonth = 11; // December is 11
-        const startDay = 1;
+        const startDay = 7;
 
         // If we are not in 2025 yet, everything is locked
         if (currentYear < targetYear) return false;
